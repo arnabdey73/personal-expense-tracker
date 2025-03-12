@@ -1,0 +1,48 @@
+# This file lists the project dependencies
+# Each line contains the name of a package and optionally its version
+# The format is: package_name==version_number
+# Example: requests==2.25.1
+
+# Flask is a micro web framework written in Python.
+# It is used for developing web applications.
+Flask==2.0.1
+
+# SQLAlchemy is an SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+# It provides a full suite of well-known enterprise-level persistence patterns.
+SQLAlchemy==1.4.22
+
+# Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy.
+# It simplifies using SQLAlchemy with Flask by providing useful defaults and helpers.
+Flask-SQLAlchemy==2.5.1
+
+# Flask-Migrate is an extension that handles SQLAlchemy database migrations for Flask applications using Alembic.
+# It provides a way to manage database schema changes over time.
+Flask-Migrate==3.1.0
+
+# Flask-WTF is an extension that integrates Flask with WTForms.
+# It provides rendering and validation of web forms.
+Flask-WTF==0.15.1
+
+# WTForms is a flexible forms validation and rendering library for Python web development.
+# It allows you to define forms and handle validation.
+WTForms==2.3.3
+
+# Flask-Login provides user session management for Flask.
+# It handles the common tasks of logging in, logging out, and remembering users' sessions.
+Flask-Login==0.5.0
+
+# Flask-Bcrypt is an extension that provides bcrypt hashing utilities for Flask.
+# It is used for securely hashing passwords.
+Flask-Bcrypt==0.7.1
+
+# Flask-Mail is an extension that provides email sending capabilities for Flask applications.
+# It simplifies the process of sending emails from your application.
+Flask-Mail==0.9.1
+
+# Flask-Bootstrap is an extension that integrates Bootstrap into Flask.
+# It helps in creating responsive web applications with Bootstrap.
+Flask-Bootstrap==3.3.7.1
+
+# Flask-DebugToolbar is an extension that adds a debug toolbar to Flask applications.
+# It provides useful debugging information during development.
+Flask-DebugToolbar==0.11.0
